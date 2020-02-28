@@ -181,6 +181,7 @@ gapi.load('client', () => {
         await gapi.client.drive.permissions.create({
             emailMessage: "emailMessage",
             fileId: "fileId",
+            resource?:any,
             sendNotificationEmail: true,
             supportsTeamDrives: true,
             transferOwnership: true,
